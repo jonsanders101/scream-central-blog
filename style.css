@@ -1,0 +1,121 @@
+
+  header {
+    text-align: center;
+    background: url('http://cdn.wallpapersafari.com/78/44/ZnVKTS.jpg');
+    background-size: cover;
+    color: #D66F73;
+    font-family: 'Shrikhand', cursive;
+    font-size: 20;
+  }
+
+  a {
+    color: #000000;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-style: italic;
+    display: inline;
+    text-shadow: 2px 3px #ffffff;
+    font-family: 'Frijole', cursive;
+  }
+  h2 {
+    font-size: 40px;
+    display: inline-block;
+    font-family: 'Frijole', cursive;
+    margin: 10;
+    }
+
+    h3 {
+      text-align: right;
+      font-family: 'Shrikhand', cursive;
+      margin: 0 30px 0 0;
+      }
+
+  img {
+    margin: 30px 10px 10px 0px;
+    border: 10px solid white;
+    border-style: dotted;
+    border-radius: 80px;
+  }
+
+  ul {
+    padding: 10px 0 10 0;
+    background: rgba(233, 186, 107, 1);
+    border-bottom: 10px dotted black;
+  }
+
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-size: 20;
+  }
+
+  body{
+    background: url('https://www.xmple.com/wallpaper/spots-polka-dots-blue-white-1920x1080-c2-87cefa-ffffff-l2-95-203-a-330-f-3.svg');
+    background-size: cover;
+    }
+
+  article {
+    max-width: 500px;
+    padding: 10px;
+    margin: 30px auto;
+    background: rgba(233, 186, 107, 1);
+    border: solid;
+    }
+
+  p {
+    font-family: georgia;
+    text-align: justify;
+    padding: 0 30;
+    }
+
+.buttons {
+  text-align: center;
+  }
+
+.button {
+  padding: 0 20px;
+  position: absolute;
+  top: 50%;
+}
+    span {
+      font-size: 30;
+
+      }
+  .movie-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px -10px 0;
+    background: url('http://i.imgur.com/yTzArye.jpg');
+    background-size: contain;
+    border-radius: 30px;
+    border: solid black 1px;
+    display: inline-block;
+
+    }
+
+  @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        }
+  h2 {
+    font-size: 20px;
+    }
+      li {
+        display: block;
+        padding: 5px;
+        }
+
+    img {
+    height: 100px;
+    width: 100px;
+    margin: 20px 10px 10px 0px;
+    border: 7px solid white;
+    border-style: dotted;
+    border-radius: 80px;
+      }
+    article {
+      margin: 10 10;
+      }
+    }
